@@ -1,4 +1,4 @@
-package java.org.example.entity.entity;
+package entity;
 
 import javax.persistence.*;
 import java.util.TimeZone;

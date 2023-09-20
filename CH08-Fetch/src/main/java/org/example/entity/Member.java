@@ -7,11 +7,12 @@ import javax.persistence.*;
  * Date: 13. 5. 24. Time: 오후 7:43
  */
 @Entity
+@Table(name="MEMBER")
 public class Member {
 
     @Id
     @GeneratedValue
-    @Column(name="MEMBER_ID")
+    @Column(name= "MEMBER_ID")
     private Long id; // 숫자형 타입으로 변경
 
     @ManyToOne(fetch = FetchType.LAZY)
@@ -50,4 +51,6 @@ public class Member {
     public Team getTeam() {
         return team;
     }
+
+
 }

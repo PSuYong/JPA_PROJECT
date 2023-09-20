@@ -1,4 +1,4 @@
-package java.org.example.entity.entity;
+package entity;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -22,10 +22,10 @@ public class Team{
                 this.name = name;
         }
 
-        @OneToMany
-        private List<Member> members = new ArrayList<>();
-
-
+//        @OneToMany
+//        private List<Member> members = new ArrayList<>();
+//
+//
 
 
 
